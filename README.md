@@ -45,11 +45,43 @@ cout<<"not a leap year";
 return 0;
 }
 
-4.Write a C++ program to calculate factorial of given number
-Program:
+4.Write a c++ program to calculate Factorial of a given number.
+PROGRAM
 #include <iostream>
 using namespace std;
+int main(){
+int n,fact=1;
+cout << "enter in value";
+Cin>>n;n=3
+if (n==0)
+Cout<<fact;
+else
+for (int i=1; i<=n; i++)
+fact = fact*1;
+cout << "factorial value is "<< fact;
+return 0;
+OUTPUT
+Enter n value 5
+Factorial value-120
+
+5.Write a c++ program to decide whether the given number is prime or not.
+PROGRAM:
+#include <iostream> 
+using namespace std; 
 int main()
 {
-int n,fact=1;
-cout<<"
+intn, count=0; 
+cout <<"enter n'value";
+Cin>>n; 
+for (int i=1; i<=n; i++) { 
+if (n%i==0) count = count+1; 
+if (count=-2) count <<n<<< " is prime number;
+else
+count<< n<< "is not prime number; 
+return 0;
+}
+OUTPUT
+Enter n value - 5
+5 is prime number
+
+week 2
